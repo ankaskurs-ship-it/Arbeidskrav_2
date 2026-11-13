@@ -14,6 +14,7 @@ bestilling=int(antall_pizza)
 #Bruker if-setning til å skrive ut melding om riktig antall pizza
 if (antall_pizza > bestilling):
     bestilling+=1
+    
 print(f'Det må bestilles {bestilling} pizzaer til festen')
 
 
